@@ -10,7 +10,7 @@ const GetToKnowME = () => {
         I’m working on frontend developer role as always and Not long ago I was
         introduced to the software testing and working together. <b>This position
         is really cools and can’t working without them, we have the same
-        purpose to make to get the best product and best user experience. </b>
+        purpose to make the best product and best user experience. </b>
         therefore I trying to learn and practice. Hopefully to join the new career
         path and get the new experience in the software development
       </p>
