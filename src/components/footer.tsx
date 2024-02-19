@@ -1,5 +1,8 @@
 
 import Header from "./common/header";
+import github from '../../assets/github.png' 
+import linkedin from '../../assets/linkedin.png' 
+import me from '../../assets/me3.jpeg' 
 
 const Footer = () => {
   return (
@@ -16,16 +19,16 @@ const Footer = () => {
         <div className="flex gap-3 pt-5 lg:pt-10">
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
-            src="../assets/github.png"
+            src={github}
           />
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
-            src="../assets/linkedin.png"
+            src={linkedin}
           />
         </div>
       </div>
       <div className=" lg:w-[400px] lg:h-[400px] my-auto">
-        <img className="mx-auto" src={`assets/me3.jpeg`} />
+        <img className="mx-auto" src={me} />
       </div>
     </div>
   );
