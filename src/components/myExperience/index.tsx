@@ -1,4 +1,4 @@
-import React from "react";
+
 import { EXPERIENCE_DESP } from "../../constants/profile";
 import { WORK_EXPERIENCE } from "../../constants/experience";
 import Card from "./card";

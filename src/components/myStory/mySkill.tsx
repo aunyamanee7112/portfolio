@@ -1,5 +1,3 @@
-import React from "react";
-
 const skills = [
   { name: "web development", icon: "webdev.png" },
   { name: "E2E Test", icon: "e2e.png" },

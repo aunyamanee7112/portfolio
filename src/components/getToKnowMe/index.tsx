@@ -1,4 +1,3 @@
-import React from "react";
 import MyWorkCard from "./card";
 import { TESTCASE } from "../../constants/testcase";
 import Header from "../common/header";

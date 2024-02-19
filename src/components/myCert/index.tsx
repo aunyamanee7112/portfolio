@@ -1,4 +1,3 @@
-import React from "react";
 import { CERT_LIST } from "../../constants/cert";
 import CertificateList from "./certificateList";
 import Header from "../common/header";

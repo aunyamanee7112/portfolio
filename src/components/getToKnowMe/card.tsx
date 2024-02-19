@@ -1,5 +1,3 @@
-import React from "react";
-
 export type TMyworkCard = {
   desp: string;
   project_name: string;

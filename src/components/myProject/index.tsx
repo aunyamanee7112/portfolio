@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECT_LIST } from "../../constants/project";
 
 const MyProject = () => {
