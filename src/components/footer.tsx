@@ -1,8 +1,8 @@
 
 import Header from "./common/header";
-import github from '../../assets/github.png' 
-import linkedin from '../../assets/linkedin.png' 
-import me from '../../assets/me3.jpeg' 
+import github from '../assets/github.png' 
+import linkedin from '../assets/linkedin.png' 
+import me from '../assets/me3.jpeg' 
 
 const Footer = () => {
   return (
