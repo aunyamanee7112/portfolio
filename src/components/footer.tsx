@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" lg:w-[400px] lg:h-[400px] my-auto">
-        <img className="mx-auto" src={`/assets/me3.jpeg`} />
+        <img className="mx-auto" src={`assets/me3.jpeg`} />
       </div>
     </div>
   );
