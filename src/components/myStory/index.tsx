@@ -3,6 +3,9 @@ import Internship from "./internShip";
 import MySkill from "./mySkill";
 import AboutMe from "./aboutMe";
 import Header from "../common/header";
+import icon_user from "../../assets/icon/user.png"
+import icon_group from "../../assets/icon/user.png"
+import icon_locatation from "../../assets/icon/location.png"
 
 const MyStory = () => {
   return (
@@ -14,19 +17,19 @@ const MyStory = () => {
             <div className="w-full h-[250px] bg-[url(/src/assets/profile1.jpeg)] bg-cover bg-center rounded-xl" />
             <div className="pt-5 text-gray-500">
               <div className="inline-flex gap-2">
-                <img className="w-4 h-4" src={`/src/assets/icon/user.png`} />
+                <img className="w-4 h-4" src={icon_user} />
                 <small>Aunyamanee Srilerd | she/her</small>
               </div>
               <br />
               <div className="inline-flex gap-2">
-                <img className="w-4 h-4" src={`/src/assets/icon/group.png`} />
+                <img className="w-4 h-4" src={icon_group} />
                 <small>pathumtanian</small>
               </div>
               <br />
               <div className="inline-flex gap-2">
                 <img
                   className="w-4 h-4"
-                  src={`/src/assets/icon/location.png`}
+                  src={icon_locatation}
                 />
                 <small>Thanyaburi Pathum thani</small>
               </div>

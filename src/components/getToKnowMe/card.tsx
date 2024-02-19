@@ -12,7 +12,7 @@ const MyWorkCard = ({ card }: { card: TMyworkCard[] }) => {
         <div key={index} className=" cursor-pointer inline-flex flex-col justify-center gap-3 text-left p-5 w-full h-full xl:w-[250px] xl:h-[300px] rounded-xl border border-gray-300 ">
           <img
             className="cursor-pointer"
-            src={`/src/assets/${item.logo}`}
+            src={item.logo}
             width={40}
             height={40}
           />

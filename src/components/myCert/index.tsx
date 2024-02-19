@@ -1,6 +1,7 @@
 import { CERT_LIST } from "../../constants/cert";
 import CertificateList from "./certificateList";
 import Header from "../common/header";
+import me from "../../assets/me2.jpeg"
 const MyCertificate: React.FC = () => {
   const title = "My Licenses & certifications";
   return (
@@ -9,7 +10,7 @@ const MyCertificate: React.FC = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-between">
         <CertificateList certList={CERT_LIST} />
         <div className="w-[500px] h-[500px]">
-          <img className="mx-auto mt-3" src={`/src/assets/me2.jpeg`} />
+          <img className="mx-auto mt-3" src={me} />
         </div>
       </div>
     </div>

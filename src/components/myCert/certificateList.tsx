@@ -1,5 +1,5 @@
 
-
+import certificate from "../../assets/icon/certificate.png";
 type TCertificateList = {
   certList: {
     name: string;
@@ -21,7 +21,7 @@ const CertificateList = ({ certList }: TCertificateList) => {
           onClick={() => handleRedirect(cert.url)}
         >
           <div className="w-9">
-            <img className="" src={`/src/assets/icon/certificate.png`} />
+            <img className="" src={certificate} />
           </div>
           <div>
             <p className="turncate text-md font-medium">{cert.name}</p>

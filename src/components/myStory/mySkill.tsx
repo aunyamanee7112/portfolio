@@ -1,12 +1,20 @@
+import icon_webdev from "../../assets/icon/webdev.png"
+import icon_e2e from "../../assets/icon/e2e.png"
+import icon_unitTest from "../../assets/icon/unitTest.png"
+import icon_react from "../../assets/icon/react.png"
+import icon_typescript from "../../assets/icon/typescript.png"
+import icon_tailwind from "../../assets/icon/tailwind.svg"
+import icon_cypress from "../../assets/icon/cypress.jpeg"
+import icon_sql from "../../assets/icon/sql.png"
 const skills = [
-  { name: "web development", icon: "webdev.png" },
-  { name: "E2E Test", icon: "e2e.png" },
-  { name: "Unit Test", icon: "unitTest.png" },
-  { name: "React", icon: "react.png" },
-  { name: "TypeScript", icon: "typescript.png" },
-  { name: "Tailwind", icon: "tailwind.svg" },
-  { name: "Cypress", icon: "cypress.jpeg" },
-  { name: "SQL", icon: "sql.png" },
+  { name: "web development", icon: icon_webdev },
+  { name: "E2E Test", icon: icon_e2e},
+  { name: "Unit Test", icon: icon_unitTest },
+  { name: "React", icon: icon_react },
+  { name: "TypeScript", icon: icon_typescript },
+  { name: "Tailwind", icon: icon_tailwind },
+  { name: "Cypress", icon: icon_cypress },
+  { name: "SQL", icon: icon_sql },
 ];
 
 const MySkill = () => {
@@ -21,7 +29,7 @@ const MySkill = () => {
             >
               <img
                 className="mx-auto mt-3"
-                src={`/src/assets/icon/${item.icon}`}
+                src={item.icon}
                 width={30}
                 height={30}
               />
