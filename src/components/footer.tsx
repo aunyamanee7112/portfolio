@@ -16,16 +16,16 @@ const Footer = () => {
         <div className="flex gap-3 pt-5 lg:pt-10">
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
-            src="/src/assets/github.png"
+            src="../assets/github.png"
           />
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
-            src="/src/assets/linkedin.png"
+            src="../assets/linkedin.png"
           />
         </div>
       </div>
       <div className=" lg:w-[400px] lg:h-[400px] my-auto">
-        <img className="mx-auto" src={`/src/assets/me3.jpeg`} />
+        <img className="mx-auto" src={`/assets/me3.jpeg`} />
       </div>
     </div>
   );
