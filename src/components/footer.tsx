@@ -20,10 +20,12 @@ const Footer = () => {
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
             src={github}
+            onClick={()=> {window.open("https://github.com/aunyamanee7112")}}
           />
           <img
             className="cursor-pointer lg:w-[60px] lg:h-[60px] w-10 h-10"
             src={linkedin}
+            onClick={()=> {window.open("https://www.linkedin.com/in/aunyamanee-srilerd-695032176/")}}
           />
         </div>
       </div>
